@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1ec061b5ce3f6849bc6ee6497489ccb, type: 3}
+  m_Name: PlayMakerVuforia Packer
+  m_EditorClassIdentifier: 
+  includeFolders:
+  - 083b77925f7924d07a6553185c7600d6
+  - 2dc2086168a034a72a6d60d0220239cf
+  excludeFolders:
+  - d8d51949a8dbf459d92814b9de9925d2
+  includeFiles: []
+  excludeFiles: []
+  youTubeLists: []
+  webLinkList: []
+  modulesList:
+  - Vuforia
+  ecoFilterList: []
+  foldersToInclude: []
+  filesToInclude: []
+  foldersToExclude: []
+  filesToExclude: []
+  author: Jean Fabre
+  type: Package
+  version: 2.0.0
+  keyWords: Vuforia VR AR XR
+  packageName: PlayMakerVuforia
+  targetDirectory: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom
+    Packages/Vuforia
+  targetRepository: 5
+  categoryString: Vuforia
+  targetPackageTextFile: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom
+    Packages/Vuforia/PlayMakerVuforia.package.txt
+  packagetypeselection:
+  - ActionPackage
+  - SamplePackage
+  - TemplatePackage
+  packagetypeselected: 0
+  UminVselection:
+  - ActionPackage
+  - SamplePackage
+  - TemplatePackage
+  UminVselected: 0
+  PMminVselection:
+  - ActionPackage
+  - SamplePackage
+  - TemplatePackage
+  PMminVselected: 0
+  Pingtype:
+  - None
+  - Asset Path
+  - Menu
+  Pingtypeselected: 1
+  uMinVersionSelected: 9
+  pmMinVersionSelected: 5
+  categoryList:
+  - API
+  - Analytics
+  - AnimateVariables
+  - Animation
+  - Android
+  - Animator
+  - Application
+  - Array
+  - AssetBundle
+  - Audio
+  - AudioMixer
+  - BlendShapes
+  - Camera
+  - Color
+  - Convert
+  - CrossPlatformInput
+  - Debug
+  - Device
+  - Editor
+  - Effects
+  - Encryption
+  - Files
+  - FOV
+  - GarbageCollection
+  - GameObject
+  - GUI
+  - GuiElement
+  - GUILayout
+  - Input
+  - JSON
+  - Level
+  - Lights
+  - Logic
+  - Material
+  - Math
+  - Mesh
+  - Microphone
+  - MobileGameController
+  - Movement
+  - NavMeshAgent
+  - NoiseModule
+  - Particles
+  - Physics
+  - Physics2D
+  - PlayerPrefs
+  - QualitySettings
+  - Quaternion
+  - Rect
+  - RectTransform
+  - RenderSettings
+  - Renderer
+  - Resources
+  - Screen
+  - ScriptControl
+  - ShapeModule
+  - Social
+  - Sprite
+  - StateMachine
+  - String
+  - Texture
+  - Time
+  - Transform
+  - Trigonometry
+  - UnityAds
+  - UnityObject
+  - Vector2
+  - Vector3
+  - VideoClip
+  - VideoPlayer
+  - VR
+  - Web
+  - WebCam
+  - uGui
+  categorySelected: 0
+  assetPath: {fileID: 102900000, guid: f7befa7189ba240aeb765a2c2a4d58f5, type: 3}
+  pingMenu: {fileID: 0}
+  fileExistsCheck: 1
+  expandedList: 0
+  showList: 1
+  showSetFoldersAndFiles: 1
+  foldout: 1
