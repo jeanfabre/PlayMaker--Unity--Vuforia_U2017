@@ -13,7 +13,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   includeFolders:
   - 083b77925f7924d07a6553185c7600d6
-  - 2dc2086168a034a72a6d60d0220239cf
+  - 33a85107668cd4c81b0b0bcfddee6bcf
   excludeFolders:
   - d8d51949a8dbf459d92814b9de9925d2
   includeFiles: []
