@@ -7,6 +7,10 @@ namespace HutongGames.PlayMaker.Actions
 {
 	[ActionCategory("Vuforia")]
 	[Tooltip("Get the ExtendedTracking option for Target.")]
+
+	#if PLAYMAKER_VUFORIA_7_2_20_OR_NEWER
+	[Obsolete("ExtendedTracking is now replaced by 'Device Tracker'")]
+	#endif
 	public class VuforiaGetExtendedTracking : FsmStateAction
 	{
 
@@ -25,7 +29,9 @@ namespace HutongGames.PlayMaker.Actions
 		GameObject _owner;
 		GameObject _goTarget;
 
+		#if !PLAYMAKER_VUFORIA_7_2_20_OR_NEWER
 		IEditDataSetBehaviour _target;
+		#endif
 
 		int value = -1;
 
@@ -51,6 +57,7 @@ namespace HutongGames.PlayMaker.Actions
 			
 		void ExecuteAction()
 		{
+			#if !PLAYMAKER_VUFORIA_7_2_20_OR_NEWER
 			_owner = Fsm.GetOwnerDefaultTarget (GameObject);
 
 			if (_goTarget != _owner ) {
@@ -84,6 +91,7 @@ namespace HutongGames.PlayMaker.Actions
 					Fsm.Event (extendedTrackingDisabled);
 				}
 			}
+			#endif
 		}
 		
 		
