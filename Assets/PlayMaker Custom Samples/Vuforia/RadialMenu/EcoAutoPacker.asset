@@ -11,10 +11,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1ec061b5ce3f6849bc6ee6497489ccb, type: 3}
   m_Name: EcoAutoPacker
   m_EditorClassIdentifier: 
-  includeFolders: []
+  includeFolders:
+  - c87ca412315904c2095efdfa48b277e1
+  - 33a85107668cd4c81b0b0bcfddee6bcf
+  - 6e8f3b683516f49d9a46b1b88fcc98d1
+  - 083b77925f7924d07a6553185c7600d6
+  - 1e6245aa1656b2b4f8424e046f467059
+  - ba7e0c1268fe92846b14e97860d0bc89
   excludeFolders: []
-  includeFiles: []
-  excludeFiles: []
+  includeFiles:
+  - 564b39b512c48e54c8aed3c0ecb0f4ce
+  - 7a7da849527748169c9d1a3dbbff2af1
+  - e8ea1fa6394e8d94893c329a44c9a340
+  - 9acbce508a2246108d4c0212523d1e6b
+  - bbf389e6f2c340afb628bd0e709c3e90
+  - 5bb51f59dbae31f4197282aa069113ac
+  - 63f70b3fa6ddc33469690a669812a217
+  excludeFiles:
+  - de5114a4e844d4f9f96ef0ad6332228e
   youTubeLists: []
   webLinkList: []
   modulesList: []
@@ -23,20 +37,22 @@ MonoBehaviour:
   filesToInclude: []
   foldersToExclude: []
   filesToExclude: []
-  author: 
-  type: 
-  version: 
-  keyWords: 
-  packageName: 
-  targetDirectory: 
-  targetRepository: 0
-  categoryString: 
-  targetPackageTextFile: 
+  author: Jean Fabre
+  type: Sample
+  version: 1.0
+  keyWords: Vuforia Radial Menu AR
+  packageName: VuforiaRadialMenu
+  targetDirectory: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom
+    Samples/Vuforia
+  targetRepository: 5
+  categoryString: Vuforia
+  targetPackageTextFile: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom
+    Samples/Vuforia/VuforiaRadialMenu.sample.txt
   packagetypeselection:
   - ActionPackage
   - SamplePackage
   - TemplatePackage
-  packagetypeselected: 0
+  packagetypeselected: 1
   UminVselection:
   - ActionPackage
   - SamplePackage
@@ -51,8 +67,8 @@ MonoBehaviour:
   - None
   - Asset Path
   - Menu
-  Pingtypeselected: 0
-  uMinVersionSelected: 0
+  Pingtypeselected: 1
+  uMinVersionSelected: 8
   pmMinVersionSelected: 0
   categoryList:
   - API
@@ -129,9 +145,9 @@ MonoBehaviour:
   - WebCam
   - uGui
   categorySelected: 0
-  assetPath: {fileID: 0}
+  assetPath: {fileID: 102900000, guid: 2bfae10a8f4f34046b3140f8a745df42, type: 3}
   pingMenu: {fileID: 0}
-  fileExistsCheck: 1
+  fileExistsCheck: 0
   expandedList: 0
   showList: 1
   showSetFoldersAndFiles: 1
