@@ -1,6 +1,6 @@
 
 
-Create a New Project ( 2017 or newer)
+- Create a New Project ( 2017 or newer)
 - Follow instructions on how to setup Vuforia: https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html
 - Install PlayMaker
 - Install the Ecosystem browser
