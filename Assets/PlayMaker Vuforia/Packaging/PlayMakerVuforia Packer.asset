@@ -29,7 +29,7 @@ MonoBehaviour:
   filesToExclude: []
   author: Jean Fabre
   type: Package
-  version: 2.1.1
+  version: 2.1.2
   keyWords: Vuforia VR AR XR
   packageName: PlayMakerVuforia
   targetDirectory: /Users/jeanfabre/Documents/Work/Unity/PlayMaker/Ecosystem/Repositories/PlayMakerCustomActions_U2017/PlayMaker/Ecosystem/Custom

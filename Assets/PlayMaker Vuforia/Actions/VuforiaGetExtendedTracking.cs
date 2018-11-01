@@ -30,7 +30,7 @@ namespace HutongGames.PlayMaker.Actions
 		GameObject _owner;
 		GameObject _goTarget;
 
-		#if !PLAYMAKER_VUFORIA_7_2_20_OR_NEWER
+		#if PLAYMAKER_VUFORIA_PRIOR_7_2
 		IEditDataSetBehaviour _target;
 		#endif
 
@@ -58,7 +58,7 @@ namespace HutongGames.PlayMaker.Actions
 			
 		void ExecuteAction()
 		{
-			#if !PLAYMAKER_VUFORIA_7_2_20_OR_NEWER
+			#if PLAYMAKER_VUFORIA_PRIOR_7_2
 			_owner = Fsm.GetOwnerDefaultTarget (GameObject);
 
 			if (_goTarget != _owner ) {

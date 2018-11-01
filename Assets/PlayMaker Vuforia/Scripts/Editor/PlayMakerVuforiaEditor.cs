@@ -15,6 +15,7 @@ public class PlayMakerVuforiaEditor
 		CheckAndUpdateVersionIfNeeded ();
     }
 		
+	const string PLAYMAKER_VUFORIA_PRIOR_7_2 = "PLAYMAKER_VUFORIA_PRIOR_7_2";
 	const string PLAYMAKER_VUFORIA_7_2_20_OR_NEWER = "PLAYMAKER_VUFORIA_7_2_20_OR_NEWER";
 
 	/// <summary>
@@ -39,7 +40,27 @@ public class PlayMakerVuforiaEditor
 			{
 				PlayMakerEditorUtils.MountScriptingDefineSymbolToAllTargets(PLAYMAKER_VUFORIA_7_2_20_OR_NEWER);
 			}
+			
 
 		#endif
+
+		#if PLAYMAKER_VUFORIA_PRIOR_7_2
+
+		if (_version >= _7_2_20_Version)
+		{
+			PlayMakerEditorUtils.UnMountScriptingDefineSymbolToAllTargets(PLAYMAKER_VUFORIA_PRIOR_7_2);
+		}
+
+		#else
+
+		if (_version < _7_2_20_Version)
+		{
+			PlayMakerEditorUtils.MountScriptingDefineSymbolToAllTargets(PLAYMAKER_VUFORIA_PRIOR_7_2);
+		}
+
+
+		#endif
+
+
 	}
 }

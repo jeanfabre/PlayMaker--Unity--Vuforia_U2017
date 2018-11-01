@@ -1,5 +1,11 @@
 #PlayMaker Vuforia Change log
 
+###2.1.2
+**Release Date:** 01/11/2018  
+
+**fix**: inverted logic for old vuforia library support for compatibility with future release. 
+
+
 ###2.1.1
 **Release Date:** 17/06/2018  
 
